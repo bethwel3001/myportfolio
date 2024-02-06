@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+
+  <!-- css links -->
+
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="styless.css">
+
+  <link rel="stylesheet" href="lines.css">
+
+<!-- box icons link -->
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+  <div id="header"> 
+ <div class="container">
+  <nav>
+
+    <!-- logo -->
+
+    <img src="image/icon.png" class="logo">
+
+    <ul id="sidemenu">
+
+<!-- header -->
+
+      <li><a href="#header">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#facilities">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+      <i class='bx bx-window-close' onclick="closemenu()"></i>
+
+    </ul>
+
+    <i class='bx bx-menu' onclick="openmenu()"></i>
+
+  </nav>
+  <div class="header-text">
+    <p>Web Developer</p>
+    <h1>Hi,I'm <span>Bethwel </span><br>From Kenya</h1>
+  </div>
+ </div>
+    </div>
+    <!-- ................about............ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/IMG_20230731_133555.png">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+
+              Iam an aspiring Software Engineer still schooling at University level.
+              Iam persuing computer Science and Mathematics at Co-operative University of Kenya.
+
+            </p>
+
+
+            <!-- js for about me animation -->
+
+
+            <div class="tab-titles">
+
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills:</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience:</p>
+              <p class="tab-links" onclick="opentab('education')">Education:</p>
+
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>  
+                <li><span>UI/UX:</span><br>~Designing Web/app Interphases</li>
+                <li><span>Web development:</span><br>~Web App Development</li>
+                <li><span>MS Office:</span><br>~Iam skilled in office applications like Accsess </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul><li><span>2023:</span><br>~Brilliant front head developer skilled in  html ,Css and javascript</li>
+                <li><span>2021-2023:</span><br>~highly skillled in office applications like acess and excel</li>
+                
+               
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023 to Date:</span><br>~Schooling at Cooperative University Of kenya </li>
+                <li><span>2021-2022:</span><br>~I did a course in software packages and Linux </li>
+                
+            
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ................services.................. -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+
+        <div class="services-list">
+
+<div>
+  <i class='bx bx-code-alt'></i>
+  <h2>Web Design</h2>
+  <p>I design and build personal or organisational websites and am warmly open for bussiness.</p>
+  <a href="#"><img src="image/link.png">Learn More</a>
+</div>
+
+        <div>
+          <i class='bx bxs-crop'></i>
+          <h2>UI/UX Design</h2>
+          <p>I design and build user interphases on applicationsand web pages.</p>
+          <a href="#"><img src="image/link.png">Learn More</a>
+       </div>
+
+        <div>
+          <i class='bx bx-bulb'></i>
+          <h2>Freelancing</h2>
+          <p>Iam open to freelancing and side projects in web development and related fields.</p>
+          <a href="#"><img src="image/link.png">Learn More</a>
+       </div>
+       </div>
+       </div>
+      </div>
+
+    
+    <!-- ..............portfolio.............. -->
+
+    <div id="facilities">
+  <h1>My Works / Portfolio:</h1>
+  <p>Ive done tons of projects which has led to gathering of lots of experience 
+    These are some of them
+  </p>
+  <div class="row">
+    <div class="facilities-col">
+      <img src="image/pro2.png">
+      <h3>Client electronic dealer website:</h3>
+      <p>This was a website that was dealing with delivery , repair and maintenance of electronics.</p>
+      <a href="Electronic Site/electronics.html"  class="her-btn">VIEW SITE</a>
+    </div>
+    <div class="facilities-col">
+      <img src="image/port.png">
+      <h3>Personal responsive portfolio website:</h3>
+      <p>It was my personal website that explains more about my web development journey.</p>
+      <a href="#header" class="her-btn">KNOW MORE</a>
+    </div>
+    <div class="facilities-col">
+      <img src="image/Screenshot (162).png">
+      <h3>Responsive Kenyan travel website:</h3>
+      <p>This website showcases various travel and destinations in Kenyathat tourists can choose from:
+      </b></p>
+      <a href="Travel Site/index.html" class="her-btn">VIEW SITE</a>
+    </div>
+  </div>
+</div>
+   
+      
+<!-- ..............contact............... -->
+
+
+<div id="contact">
+  <div class="container">
+
+<div class="row">
+  <div class="contact-left">
+
+    <h1 class="sub-title">Contact_ Me-Let's connect^</h1>
+    <p><i class='bx bxs-envelope'></i>kiplagat23.bethwel@student.cuk.ac.ke</p>
+
+    <p><i class='bx bxs-phone-call'></i>0759112532</p>
+    <p><span class="hi">Bonjour</span>-Check My CV & Resume^^Know more about Me</p>
+            <p>Check out my social media handles to know more about me,</p>
+    
+            <!-- social media links and icons -->
+
+    <div class="icon">
+
+      <a href="https://www.linkedin.com/in/bethwel-kiplagat-1314912a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <img src="image/linkedin.png"></a>
+      <a href="https://x.com/am_kiplagat?t=4sA0ouWWQ5Y5a-ZwGLndkA&s=09"><img src="image/x.png"></a>
+      <a href="https://www.facebook.com/profile.php?id=61550594829255&mibextid=ZbWKwL"><img src="image/fb.png"></a>
+      <a href="github.com/bethwel3001"> <img src="image/git.png"></a>
+     
+    </div>
+    <a href="image/1Skills-Based_Resume_Template.docx" 
+       
+<button class="buttonDownload">Download CV</button>
+</a>
+  </div>
+  
+
+  <!-- contact right -->
+  
+  <div class="contact-right">
+      <ul class="extra">
+      
+          <p>Quick Links</p> 
+          <li>
+      <i class='bx bxs-bookmark-alt'></i>To check my electronics website; <a href="Electronic Site/electronics.html">Click Here</a>
+
+      <span>This website deals with the sales , delivery , 
+        meintenace and repair of electronic devices</span>
+</li>
+
+<li><i class='bx bxs-bookmark-alt'></i>To check my Kenya travel website; <a href="Travel Site/index.html">Click Here</a>
+         
+        <span>This website deals helps tourists planning to visit Kenya to find
+            places of visit in Kenya as well as place bookings to their desired place of stay.</span>
+                   
+          </li>
+         
+            <span>
+              <li><i class='bx bxs-bookmark-alt'></i>If you wish to check my GitHub ,<a href="github.com/bethwel3001">Click Here</a>
+          </span>
+
+        </li>
+        
+        <li><i class='bx bxl-unity'></i>You can collaborate with me in projects building,Im open to new ideas
+            
+            </li>
+            <li>
+            
+              <li>To Hire me or connect me ,<a href="" onclick="submitHire()">Click Here</a>
+
+  <a href="" class="hero-btn" onclick="submitHire()">Hire Me</a>
+</li>
+            
+<!-- <li><a href="image/1Skills-Based_Resume_Template.docx" download class="hero-btn">
+  <i class='bx bx-download'></i>Download my Resume</a></li>
+     -->
+    </div>
+  
+  </div>
+
+<!-- form section -->
+
+  <form>
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+    <!-- <button class="hero-btn">Submit Info.</button> -->
+
+
+    <button>
+      <div class="svg-wrapper-1">
+        <div class="svg-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+          >
+            <path fill="none" d="M0 0h24v24H0z"></path>
+            <path
+              fill="currentColor"
+              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <span>Send</span>
+    </button>
+  </form>
+</div>
+</div>
+</div>
+
+<!-- copyright text -->
+
+<div class="copyright">
+  <p>Copyright © Kiplagat B Web Project001</p>
+</div>
+
+<!-- Vanilla javascript elements -->
+
+  <script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+
+function submitHire() {
+
+  alert("Thank You! Youll never regret this decisiom");
+}
+  </script>
+
+<!-- sidemenu javascript -->
+
+  <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+
+sidemenu.style.right = "-200px";
+}
+  </script>
+</body>
+</html>
